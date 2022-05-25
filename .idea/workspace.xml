@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84051e77-7ca1-473e-81ec-a2a1f13f9ab8" name="Changes" comment="">
+    <list default="true" id="84051e77-7ca1-473e-81ec-a2a1f13f9ab8" name="Changes" comment="Criação do produtor da mensagem">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
@@ -86,6 +86,14 @@
       <option name="presentableId" value="Default" />
       <updated>1653437060292</updated>
     </task>
+    <task id="LOCAL-00001" summary="Criação do produtor da mensagem">
+      <created>1653440900399</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653440900399</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +106,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criação do produtor da mensagem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação do produtor da mensagem" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
