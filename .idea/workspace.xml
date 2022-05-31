@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84051e77-7ca1-473e-81ec-a2a1f13f9ab8" name="Changes" comment="Implementação do consumer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/ecommerce/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/ecommerce/LogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/estudo/ecommerce/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/ecommerce/FraudDetectorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/estudo/ecommerce/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/ecommerce/NewOrderMain.java" afterDir="false" />
-    </list>
+    <list default="true" id="84051e77-7ca1-473e-81ec-a2a1f13f9ab8" name="Changes" comment="Implementação de um serviço de consumo de fraude + criação de uma chave para distribuir as mensagens entre as partições" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653444619802</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implementação de um serviço de consumo de fraude + criação de uma chave para distribuir as mensagens entre as partições">
+      <created>1653701609160</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653701609160</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,7 +200,8 @@
     <MESSAGE value="Criação do produtor da mensagem" />
     <MESSAGE value="Correção do método de deserilização" />
     <MESSAGE value="Implementação do consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação do consumer" />
+    <MESSAGE value="Implementação de um serviço de consumo de fraude + criação de uma chave para distribuir as mensagens entre as partições" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação de um serviço de consumo de fraude + criação de uma chave para distribuir as mensagens entre as partições" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
