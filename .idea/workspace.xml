@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84051e77-7ca1-473e-81ec-a2a1f13f9ab8" name="Changes" comment="Implementação de um serviço de consumo de fraude + criação de uma chave para distribuir as mensagens entre as partições">
+    <list default="true" id="84051e77-7ca1-473e-81ec-a2a1f13f9ab8" name="Changes" comment="Criação de um limit de consumo para evitar quebra de balanceamento.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/ecommerce/ConsumerFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/ecommerce/KafkaDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/ecommerce/KafkaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/estudo/ecommerce/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/ecommerce/EmailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/estudo/ecommerce/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/ecommerce/FraudDetectorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/estudo/ecommerce/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/ecommerce/NewOrderMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,6 +56,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.estudo.ecommerce" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.estudo.ecommerce" />
     </key>
@@ -135,9 +144,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.NewOrderMain" />
+        <item itemvalue="Application.EmailService" />
         <item itemvalue="Application.FraudDetectorService" />
         <item itemvalue="Application.LogService" />
-        <item itemvalue="Application.EmailService" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653957353259</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Criação de um limit de consumo para evitar quebra de balanceamento.">
+      <created>1654722785064</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654722785064</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,7 +227,8 @@
     <MESSAGE value="Correção do método de deserilização" />
     <MESSAGE value="Implementação do consumer" />
     <MESSAGE value="Implementação de um serviço de consumo de fraude + criação de uma chave para distribuir as mensagens entre as partições" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação de um serviço de consumo de fraude + criação de uma chave para distribuir as mensagens entre as partições" />
+    <MESSAGE value="Criação de um limit de consumo para evitar quebra de balanceamento." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação de um limit de consumo para evitar quebra de balanceamento." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
